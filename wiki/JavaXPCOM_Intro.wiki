@@ -1,0 +1,19 @@
+#summary Basic working examples of code with JavaXPCOM and Eclipse
+#labels Featured
+
+= Introduction =
+
+Some time ago, I was trying to build a Java application that uses JavaXPCOM wrapper in order to load a web page and apply a XPath query. That was my first newbie goal, so I needed some  basic documentation about JavaXPCOM to start playing with that. But current and official JavaXPCOM documentation (http://developer.mozilla.org/en/docs/JavaXPCOM) is somewhat poor and obsolete. In an effort to help newbies like me to build some basic code that uses Gecko rendering engine through JavaXPCOM, using Eclipse as a development platform, I started this documentation project.
+
+Well, that is one of the goals. The other one is to improve my poor english skills... so, your are warned ;-)
+
+
+= Details =
+
+Test.java:  load and visualize google.com webpage, extract the DOM document, and calculate number of link (<a href=..>) elements.
+
+
+XPathJVMCrash.java:  based on some buggy code posted to mozilla.dev.tech.java ,  I fixed that and apply a XPath query against an ill-formed HTML webpage. It doesn't work as expected with that query on that page, but it works ok with others.
+
+
+
