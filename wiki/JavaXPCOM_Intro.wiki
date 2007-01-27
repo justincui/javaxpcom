@@ -10,6 +10,8 @@ Well, that is one of the goals. The other one is to improve my poor english skil
 
 = Details =
 
+_All cited source code is available in the Subversion repository_
+
 *Test.java*:  load and visualize google.com webpage, extract the DOM document, and calculate number of link (<a href=..>) elements.
 
 *Environment*:
