@@ -34,11 +34,13 @@ Add the following jars from plugins forlder of your eclipse installation:
  * org.eclipse.equinox.registry_3.2.1
 
 
- * Mozilla.interfaces.jar <-- this is found in XULRunner folder, !sdk/lib/MozillaInterfaces.jar
+ * Mozilla.interfaces.jar <-- this is found in XULRunner folder, sdk/lib/!MozillaInterfaces.jar
 
  * core.jar <-- this is from Eclipse ATF Project. 
 http://www.eclipse.org/atf/downloads/index_0.1-20060713-1400.php
-__Update__:http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/webtools/atf/atf-linux-sdk-0.1-20060713-1700.zip
+
+_Update_:http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/webtools/atf/atf-linux-sdk-0.1-20060713-1700.zip
+
 Download the Linux version 0.1-20060713 of ATF's SDK (binary with source)
 Extract the contents. There is a org.eclipse.atf.core_1.0.1.jar archive. Extract the contents and you will see core.jar and it's source code, coresrc.jar.
 
@@ -46,6 +48,5 @@ Extract the contents. There is a org.eclipse.atf.core_1.0.1.jar archive. Extract
 
 
 * XPathJVMCrash.java*:  based on some buggy code posted to mozilla.dev.tech.java ,  I fixed that and apply a XPath query against an ill-formed HTML webpage. It doesn't work as expected with that query on that page, but it works ok with others.
-
 
 
