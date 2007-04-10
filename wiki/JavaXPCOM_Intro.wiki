@@ -47,6 +47,7 @@ Extract the contents. There is a org.eclipse.atf.core_1.0.1.jar archive. Extract
  * mozilla_swt.jar : from the same ATF package download (where you extracted from core.jar), there is also a org.eclipse.atf.mozilla.swt.browser_1.0.1.jar. Extract the contents and you will see mozilla_swt.jar and mozilla_swtsrc.jar.
 
 
-* XPathJVMCrash.java*:  based on some buggy code posted to mozilla.dev.tech.java ,  I fixed that and apply a XPath query against an ill-formed HTML webpage. It doesn't work as expected with that query on that page, but it works ok with others.
+  * Update 2007/04/10: org.eclipse.atf.mozilla.ide.core_1.0.1.jar is also a dependency. You have to extract this archive and import into Eclipse.
 
+* XPathJVMCrash.java*:  based on some buggy code posted to mozilla.dev.tech.java ,  I fixed that and apply a XPath query against an ill-formed HTML webpage. It doesn't work as expected with that query on that page, but it works ok with others.
 
